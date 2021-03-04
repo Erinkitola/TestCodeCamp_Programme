@@ -1,65 +1,90 @@
 {
-  "id": "f9d7c6cf-2aa1-4c31-894e-e9a11eef8cb9",
+  "id": "e1cf66b0-1242-4833-b586-77b92519f71a",
   "version": "2.0",
   "name": "Facebook",
   "url": "https://web.facebook.com",
   "tests": [{
-    "id": "f74117a9-edbe-4bc3-bffc-f347f4c0581b",
-    "name": "Facebook log in and logout",
+    "id": "a35e1301-d05b-4911-a1c6-c0c2afad3d7d",
+    "name": "Facebook",
     "commands": [{
-      "id": "d8ab6aed-226f-4ee0-82d2-16dd71cd3781",
+      "id": "f3d46f46-5626-446f-99c1-5140bc23cb56",
       "comment": "",
       "command": "open",
       "target": "/?_rdc=1&_rdr",
       "targets": [],
       "value": ""
     }, {
-      "id": "a852fec8-3f4c-41fa-af05-7300bfe722cc",
+      "id": "54620737-fd45-47b1-8d3d-0b48256378a4",
       "comment": "",
       "command": "setWindowSize",
       "target": "1382x744",
       "targets": [],
       "value": ""
     }, {
-      "id": "c4e668d8-025d-4134-8489-e216cbb0bc22",
+      "id": "6d333e19-1be8-4ed2-9787-2d5f5260ddc9",
       "comment": "",
       "command": "click",
-      "target": "id=u_0_h_7n",
+      "target": "id=email",
       "targets": [
-        ["id=u_0_h_7n", "id"],
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_e_wr']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b6c5a2-781d-42d9-9c0f-7ff017faa978",
+      "comment": "",
+      "command": "click",
+      "target": "id=u_0_h_kS",
+      "targets": [
+        ["id=u_0_h_kS", "id"],
         ["name=login", "name"],
-        ["css=#u_0_h_7n", "css:finder"],
-        ["xpath=//button[@id='u_0_h_7n']", "xpath:attributes"],
-        ["xpath=//form[@id='u_0_e_bp']/div[2]/button", "xpath:idRelative"],
+        ["css=#u_0_h_kS", "css:finder"],
+        ["xpath=//button[@id='u_0_h_kS']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_e_wr']/div[2]/button", "xpath:idRelative"],
         ["xpath=//button", "xpath:position"],
         ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "e9e7d392-9bc4-4be0-83f1-ac05c694a996",
+      "id": "bde739bb-5f5a-4901-a215-58d089bde12f",
       "comment": "",
       "command": "click",
       "target": "css=.sp_9tHeeoQvoGp",
       "targets": [
         ["css=.sp_9tHeeoQvoGp", "css:finder"],
-        ["xpath=//div[@id='mount_0_0_5P']/div/div/div/div[2]/div[4]/div/span/div/div/i", "xpath:idRelative"],
+        ["xpath=//div[@id='mount_0_0_G7']/div/div/div/div[2]/div[4]/div/span/div/div/i", "xpath:idRelative"],
         ["xpath=//span/div/div/i", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "cf883edf-ddeb-4826-b1e4-cb28fce1a2db",
+      "id": "b7c728ec-74d8-4df4-baa1-1bd91c16c4dc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.aov4n071 > div:nth-child(1) > .oajrlxb2 > .ow4ym5g4",
+      "targets": [
+        ["css=.aov4n071 > div:nth-child(1) > .oajrlxb2 > .ow4ym5g4", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_G7']/div/div/div/div[2]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f342bec-9740-4226-ada6-e6d9a04c6ae1",
       "comment": "",
       "command": "click",
       "target": "css=div:nth-child(4) > .oajrlxb2 .d2edcug0",
       "targets": [
         ["css=div:nth-child(4) > .oajrlxb2 .d2edcug0", "css:finder"],
-        ["xpath=//div[@id='mount_0_0_5P']/div/div/div/div[2]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div[2]/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[@id='mount_0_0_G7']/div/div/div/div[2]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div[2]/div/div/div/div/span", "xpath:idRelative"],
         ["xpath=//div[4]/div/div/div[2]/div/div/div/div/span", "xpath:position"],
         ["xpath=//span[contains(.,'Log Out')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "cab75d4a-8d48-4f39-8c49-244740e14c2c",
+      "id": "54a5e6b3-3b71-44e8-baa4-d2c1154ec4c8",
       "comment": "",
       "command": "type",
       "target": "id=email",
@@ -68,12 +93,12 @@
         ["name=email", "name"],
         ["css=#email", "css:finder"],
         ["xpath=//input[@id='email']", "xpath:attributes"],
-        ["xpath=//form[@id='u_0_e_WQ']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form[@id='u_0_e_Qt']/div/div/input", "xpath:idRelative"],
         ["xpath=//div/input", "xpath:position"]
       ],
       "value": "oluwashizzy5@gmail.com"
     }, {
-      "id": "23c3b800-77d7-4e68-88dc-1ced2b4fc617",
+      "id": "d4bef15c-cbd8-4db1-b2a1-149a031a10be",
       "comment": "",
       "command": "type",
       "target": "id=pass",
@@ -87,7 +112,18 @@
       ],
       "value": "oluchigo1"
     }, {
-      "id": "f770a5e2-821e-4ad5-a49a-781bcd979d36",
+      "id": "21468bdb-2ed4-4730-9568-b0d9660c3d23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_45ks",
+      "targets": [
+        ["css=.\\_45ks", "css:finder"],
+        ["xpath=//div[@id='content']/div/div/div/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b277c205-10b1-4c0e-ac0e-ea2ce0d72f81",
       "comment": "",
       "command": "assertTitle",
       "target": "Facebook – log in or sign up",
@@ -96,12 +132,12 @@
     }]
   }],
   "suites": [{
-    "id": "1120e41f-89a3-4e39-8ecc-66f01032dfda",
+    "id": "2630ffd8-e51e-438f-ba32-081e045905cf",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["f74117a9-edbe-4bc3-bffc-f347f4c0581b"]
+    "tests": ["a35e1301-d05b-4911-a1c6-c0c2afad3d7d"]
   }],
   "urls": ["https://web.facebook.com/"],
   "plugins": []
